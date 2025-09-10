@@ -62,7 +62,7 @@ const AllProducts = () => {
                                         <td>₹{item.price}</td>
                                     <td>
                                         {item.image && (
-                                            <img src={`${API_URL}/uploads/${item.image}`} 
+                                            <img src={item.image}  
                                             alt={item.productName}
                                             style={{ width: '50px', height:'50px'  }}
                                             />
